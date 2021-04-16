@@ -143,11 +143,12 @@ input[type="text"] {
   outline: 1px solid lightgray;
 }
 
-/*input[type="text"]:disabled {
+input[type="text"]:disabled {
   outline: none;
   background-color: transparent;
 }
-input[type="text"]:focus {
+
+/*input[type="text"]:focus {
   outline-offset: 0px;
   outline: 1px solid lightgray;
 }
