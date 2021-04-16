@@ -116,12 +116,13 @@ table {
   border-collapse: collapse;
 }
 
-/*th {
+th {
   background-color: #33E0FF;
   color: #000000;
   text-transform: uppercase;
 }
-tr {
+
+/*tr {
   background-color: #f3f3f3;
 }
 th,td {
