@@ -59,6 +59,38 @@
     </div>
   </div>
 
+  <!-- Grid Component -->
+  <div id="demo">
+     <table>
+       <caption><h2>Simple VueJs Inline Editable Table</h2></caption>
+      <thead>
+        <tr>
+          <th v-for="col in gridColumns" class="headerText">
+            {{col}}
+          </th>
+          <th><i class="fa fa-plus-square fa-lg" aria-hidden="true" @click="addRow"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(row,index) in gridData" :key="index">
+         <td ><input type="text" v-model="gridData[index].name"  class="form-control" placeholder="name" :disabled="row.disabled" ></td>
+         <td ><input type="text" v-model="gridData[index].phone"  class="form-control" placeholder="phone" :disabled="row.disabled" ></td>
+         <td ><input type="text" v-model="gridData[index].email"  class="form-control" placeholder="email" :disabled="row.disabled" ></td>
+         <td><input type="text" v-model="gridData[index].address"  class="form-control" placeholder="address" :disabled="row.disabled" ></td>
+          <td>
+            <i class="fa fa-pencil-square-o fa-lg" aria-hidden="true" @click="editRow(index)" :class="{activeBtn: !row.disabled}"></i>
+            <i class="fa fa-plus-square fa-lg" aria-hidden="true" @click="addRow(index)"></i>
+            <i class="fa fa-trash fa-lg" aria-hidden="true" @click="deleteRow(index)"></i></td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="margin-left: 30px; font-weight: bold">
+      Table Data
+      <pre v-html="prettyJSON(gridData)"></pre>
+    </div>
+  </div>
+
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
