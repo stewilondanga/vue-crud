@@ -105,12 +105,12 @@ body {
   transition-delay: 0.4s;
 }
 
-/*
 #demo {
   display: flex;
   padding: 20px;
 }
-table {
+
+/*table {
   border: 1px solid #333;
   background-color: #fff;
   border-collapse: collapse;
