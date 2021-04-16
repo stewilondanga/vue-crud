@@ -122,10 +122,11 @@ th {
   text-transform: uppercase;
 }
 
-/*tr {
+tr {
   background-color: #f3f3f3;
 }
-th,td {
+
+/*th,td {
   min-width: 90px;
   padding: 2px 5px;
   border: 1px solid #000;
