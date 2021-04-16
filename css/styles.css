@@ -110,12 +110,13 @@ body {
   padding: 20px;
 }
 
-/*table {
+table {
   border: 1px solid #333;
   background-color: #fff;
   border-collapse: collapse;
 }
-th {
+
+/*th {
   background-color: #33E0FF;
   color: #000000;
   text-transform: uppercase;
