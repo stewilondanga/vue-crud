@@ -153,11 +153,12 @@ input[type="text"]:focus {
   outline: 1px solid lightgray;
 }
 
-/*.fa {
+.fa {
   padding: 5px;
   cursor: pointer;
 }
-.activeBtn {
+
+/*.activeBtn {
   color: #00C029
 }
 pre {
