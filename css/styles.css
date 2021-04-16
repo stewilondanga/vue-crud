@@ -136,13 +136,14 @@ th, td {
   border: 0;
 }
 
-/*input[type="text"] {
+input[type="text"] {
   font-size: 14px;
   line-height: 1.5;
   background-color: white;
   outline: 1px solid lightgray;
 }
-input[type="text"]:disabled {
+
+/*input[type="text"]:disabled {
   outline: none;
   background-color: transparent;
 }
