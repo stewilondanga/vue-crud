@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -106,6 +106,64 @@ body {
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
+
+body {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  color: #444;
+}
+#demo {
+  display: flex;
+  padding: 20px;
+}
+table {
+  border: 1px solid #333;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+th {
+  background-color: #33E0FF;
+  color: #000000;
+  text-transform: uppercase;
+}
+tr {
+  background-color: #f3f3f3;
+}
+th,td {
+  min-width: 90px;
+  padding: 2px 5px;
+  border: 1px solid #000;
+}
+.form-control {
+  border: 0;
+}
+input[type="text"] {
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: white;
+  outline: 1px solid lightgray;
+}
+input[type="text"]:disabled {
+  outline: none;
+  background-color: transparent;
+}
+input[type="text"]:focus {
+  outline-offset: 0px;
+  outline: 1px solid lightgray;
+}
+.fa {
+  padding: 5px;
+  cursor: pointer;
+}
+.activeBtn {
+  color: #00C029
+}
+pre {
+  padding: 15px;
+  width: 100%;
+  background-color: #eee;
+}
+
 
 #contact h1 {
   font-family: helvetica;
