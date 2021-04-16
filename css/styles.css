@@ -162,12 +162,13 @@ input[type="text"]:focus {
   color: #00C029
 }
 
-/*pre {
+pre {
   padding: 15px;
   width: 100%;
   background-color: #eee;
 }
 
+/*
 
 #contact h1 {
   font-family: helvetica;
